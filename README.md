@@ -1,0 +1,3 @@
+This repository contains a JavaScript code example demonstrating a potential issue with using the `break` statement inside a `while` loop. The `bug.js` file shows the original code with the error, while `bugSolution.js` provides a corrected version.
+
+The issue arises from the unexpected termination of the loop when the condition `i === 5` is met.  This can be problematic if the code relies on the loop completing all iterations.  The solution file demonstrates a more robust approach, ensuring proper loop termination.
